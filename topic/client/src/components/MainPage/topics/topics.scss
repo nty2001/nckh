@@ -1,0 +1,44 @@
+.topics {
+    max-width: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    .topic__item {
+        position: relative;
+        width: 300px;
+        background-color: rgb(7, 25, 63);
+        color: #ddd;
+        padding: 10px;
+        box-shadow: 0 0 5px rgb(7, 25, 63);
+        margin: 15px;
+        h4 {
+            margin-right: 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .topic__content {
+            width: 100%;
+            height: 150px;
+            overflow: hidden;
+            margin: 10px 0;
+            color: #ff9;
+        }
+        .topic__date {
+            text-align: right;
+            color: wheat;
+        }
+        .topic__edit {
+            a {
+                color: wheat;
+            }
+        }
+        .topic__delete {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            font-weight: 900;
+            background-color: transparent;
+        }
+    }
+}
