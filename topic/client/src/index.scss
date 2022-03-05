@@ -43,6 +43,11 @@ body {
     }
   }
 }
+@media (max-width:768px) {
+  .toppic {
+    width: 80%;
+  }
+}
 @import url("./components/Header/header.scss");
 @import url("./components/MainPage/auth/auth.scss");
 @import url("./components/MainPage/topics/topics.scss");
